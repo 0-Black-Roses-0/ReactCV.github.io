@@ -18,8 +18,8 @@ const ExpenseChart = () => {
       <BarChart data={data}>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="name" />
-        <YAxis />
-        <Tooltip />
+        <YAxis tickFormatter={(value) => `$${value}`} />
+        <Tooltip formatter={(value) => `$${value}`} />
         <Legend />
         <Bar dataKey="expense" fill="#8884d8" />
       </BarChart>
