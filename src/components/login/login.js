@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './login.css';
+import styles from '../style/login.module.css'; // ایمپورت استایل به صورت ماژول
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -7,15 +7,14 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // کد ارسال درخواست لاگین به سرور
     console.log('Email:', email, 'Password:', password);
   };
 
   return (
-    <div className="login-container">
-      <form className="login-form" onSubmit={handleSubmit}>
-        <h2 className="login-title">Welcome Back!</h2>
-        <div className="input-group">
+    <div className={styles.loginContainer}>
+      <form className={styles.loginForm} onSubmit={handleSubmit}>
+        <h2 className={styles.loginTitle}>Welcome Back!</h2>
+        <div className={styles.inputGroup}>
           <label>Email</label>
           <input
             type="email"
@@ -24,7 +23,7 @@ const Login = () => {
             required
           />
         </div>
-        <div className="input-group">
+        <div className={styles.inputGroup}>
           <label>Password</label>
           <input
             type="password"
@@ -33,8 +32,8 @@ const Login = () => {
             required
           />
         </div>
-        <button type="submit" className="login-button">Login</button>
-        <p className="signup-link">Don't have an account? <a href="#">Sign Up</a></p>
+        <button type="submit" className={styles.loginButton}>Login</button>
+        <p className={styles.signupLink}>Don't have an account? <a href="/signup">Sign Up</a></p>
       </form>
     </div>
   );

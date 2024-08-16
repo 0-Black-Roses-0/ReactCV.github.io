@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Home Page Styles */
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav a {
+    margin-left: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color: #333;
+}
+
+.heroSection {
+    width: 100%;
+    height: 95vh;
+    background: linear-gradient(to right, #6A82FB, #FC5C7D);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.heroContent h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.heroContent p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.ctaButton {
+    padding: 15px 30px;
+    background-color: white;
+    color: #6A82FB;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.ctaButton:hover {
+    background-color: #6A82FB;
+    color: white;
+}
+
+.servicesSection {
+    width: 100%;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 45px;
+}
+
+.servicesSection h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #4c65af;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.serviceCard {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.serviceCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.serviceCard h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #4c65af;
+}
+
+.serviceCard p {
+    font-size: 1rem;
+    color: #555;
+}

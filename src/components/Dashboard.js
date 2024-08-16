@@ -4,28 +4,29 @@ import IncomeChart from './IncomeChart';
 import EmployeeCount from './EmployeeCount';
 import CustomerCount from './CustomerCount';
 import ProductCount from './ProductCount';
-import './Dashboard.css';
+import { Link } from 'react-router-dom';
+import styles from './style/Dashboard.module.css';
 
 const Dashboard = () => {
   return (
-    <div className="dashboard">
-      <h1>Admin Dashboard</h1>
-      <div className="charts">
-        <div className="card">
+    <div className={styles.dashboard}>
+      <h1 className={styles.dashboardTitle}>Admin Dashboard</h1>
+      <div className={styles.charts}>
+        <div className={styles.card}>
           <ExpenseChart />
         </div>
-        <div className="card">
+        <div className={styles.card}>
           <IncomeChart />
         </div>
       </div>
-      <div className="counts">
-        <div className="card">
+      <div className={styles.counts}>
+        <div className={styles.card}>
           <EmployeeCount />
         </div>
-        <div className="card">
+        <div className={styles.card}>
           <CustomerCount />
         </div>
-        <div className="card">
+        <div className={styles.card}>
           <ProductCount />
         </div>
       </div>
