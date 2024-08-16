@@ -4,7 +4,6 @@ import IncomeChart from './IncomeChart';
 import EmployeeCount from './EmployeeCount';
 import CustomerCount from './CustomerCount';
 import ProductCount from './ProductCount';
-import { Link } from 'react-router-dom';
 import styles from './style/Dashboard.module.css';
 
 const Dashboard = () => {

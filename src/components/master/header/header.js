@@ -21,9 +21,9 @@ function Header() {
             
             <li className={styles.liheader}>
                 <NavLink
-                    to="/about"
+                    to="/profile"
                     className={({ isActive }) =>
-                        isActive ? `${styles.aheader} ${styles.active}` : styles.aheader}>About</NavLink>
+                        isActive ? `${styles.aheader} ${styles.active}` : styles.aheader}>Profile</NavLink>
             </li>
 
             <li className={`${styles.liheader} ${styles.liabout}`}>
