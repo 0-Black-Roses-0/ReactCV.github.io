@@ -1,0 +1,92 @@
+.profileContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .profileHeader {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profileAvatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover; /* جلوگیری از کشیده شدن تصویر */
+  }
+  
+  .profileName {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .profileRole {
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .followButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left: 10px;
+    transition: background-color 0.3s ease; /* انیمیشن برای تغییر رنگ پس‌زمینه */
+  }
+  
+  .followButton:hover {
+    background-color: #0056b3; /* تغییر رنگ پس‌زمینه در حالت هاور */
+  }
+  
+  .profileDetails {
+    margin-top: 20px;
+  }
+  
+  .card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formRow {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap; /* نمایش فرم‌ها در ردیف‌های متعدد در صورت نیاز */
+  }
+  
+  .formGroup {
+    flex: 1;
+    margin-bottom: 8px;
+    min-width: 200px; /* حداقل عرض برای فرم‌ها */
+  }
+  
+  .formControl {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* شامل شدن padding در اندازه‌گیری */
+  }
+  
+  .updateButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    transition: background-color 0.3s ease; /* انیمیشن برای تغییر رنگ پس‌زمینه */
+  }
+  
+  .updateButton:hover {
+    background-color: #004fa3; /* تغییر رنگ پس‌زمینه در حالت هاور */
+  }
+  
