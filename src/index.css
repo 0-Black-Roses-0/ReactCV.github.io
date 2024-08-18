@@ -4,6 +4,9 @@ h3::selection,
 h4::selection,
 a::selection,
 label::selection,
+button::selection,
+input::selection,
+textarea::selection,
 p::selection {
     background: none;
     color: rgb(57, 121, 238);
