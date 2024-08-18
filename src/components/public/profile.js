@@ -21,7 +21,7 @@ const Profile = () => {
                     <form>
                         <div className={styles.formRow}>
                             <div className={styles.formGroup}>
-                                <label htmlFor="firstName">First Name</label>
+                                <label classname={styles.inputlabel}  htmlFor="firstName">First Name</label>
                                 <input
                                     type="text"
                                     id="firstName"
@@ -31,7 +31,7 @@ const Profile = () => {
                                 />
                             </div>
                             <div className={styles.formGroup}>
-                                <label htmlFor="lastName">Last Name</label>
+                                <label classname={styles.inputlabel}  htmlFor="lastName">Last Name</label>
                                 <input
                                     type="text"
                                     id="lastName"
@@ -44,7 +44,7 @@ const Profile = () => {
 
                         <div className={styles.formRow}>
                             <div className={styles.formGroup}>
-                                <label htmlFor="email">Email</label>
+                                <label classname={styles.inputlabel}  htmlFor="email">Email</label>
                                 <input
                                     type="email"
                                     id="email"
@@ -54,7 +54,7 @@ const Profile = () => {
                                 />
                             </div>
                             <div className={styles.formGroup}>
-                                <label htmlFor="password">Password</label>
+                                <label classname={styles.inputlabel}  htmlFor="password">Password</label>
                                 <input
                                     type="password"
                                     id="password"
@@ -65,7 +65,7 @@ const Profile = () => {
                         </div>
 
                         <div className={styles.formGroup}>
-                            <label htmlFor="address">Address</label>
+                            <label classname={styles.inputlabel}  htmlFor="address">Address</label>
                             <input
                                 type="text"
                                 id="address"
@@ -76,21 +76,21 @@ const Profile = () => {
 
                         <div className={styles.formRow}>
                             <div className={styles.formGroup}>
-                                <label htmlFor="city">City</label>
+                                <label classname={styles.inputlabel}  htmlFor="city">City</label>
                                 <input type="text" id="city" placeholder="City" className={styles.formControl} />
                             </div>
                             <div className={styles.formGroup}>
-                                <label htmlFor="state">State</label>
+                                <label classname={styles.inputlabel}  htmlFor="state">State</label>
                                 <input type="text" id="state" placeholder="State" className={styles.formControl} />
                             </div>
                             <div className={styles.formGroup}>
-                                <label htmlFor="zip">Zip</label>
+                                <label classname={styles.inputlabel}  htmlFor="zip">Zip</label>
                                 <input type="text" id="zip" placeholder="Zip" className={styles.formControl} />
                             </div>
                         </div>
 
                         <div className={styles.formGroup}>
-                            <label htmlFor="description">Description</label>
+                            <label classname={styles.inputlabel}  htmlFor="description">Description</label>
                             <textarea
                                 id="description"
                                 rows="5"

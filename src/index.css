@@ -9,6 +9,11 @@ input::selection,
 textarea::selection,
 p::selection {
     background: none;
-    color: rgb(57, 121, 238);
+    color: #6D28D9;
     background-color: none;
+}
+
+img::selection{
+    background-color: none;
+    background: none;
 }

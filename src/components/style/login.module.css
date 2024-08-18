@@ -39,6 +39,7 @@ label {
 
 input[type="email"],
 input[type="text"],
+input[type="textarea"],
 input[type="password"] {
     padding: 0.75rem;
     border: 1px solid #D1D5DB;
@@ -50,6 +51,7 @@ input[type="password"] {
 
 input[type="email"]:focus,
 input[type="text"]:focus,
+input[type="textarea"]:focus,
 input[type="password"]:focus {
     border-color: #7C3AED;
     box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.3);
