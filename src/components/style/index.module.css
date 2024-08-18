@@ -73,7 +73,6 @@ a {
 .servicesSection {
     width: 100%;
     text-align: center;
-    background-color: #f9f9f9;
     margin: 45px;
 }
 
@@ -114,3 +113,40 @@ a {
     font-size: 1rem;
     color: #555;
 }
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+.paragraph > div {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.paragraph > div:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.paragraphimg img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+    .paragraph {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .paragraph > div {
+        flex: 1 1 calc(50% - 30px);
+    }
+}
+

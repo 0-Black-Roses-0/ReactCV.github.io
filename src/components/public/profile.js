@@ -97,7 +97,7 @@ const Profile = () => {
                                 placeholder="A brief description about yourself"
                                 className={styles.formControl}
                             >
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                
                             </textarea>
                         </div>
 
