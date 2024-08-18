@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from '../style/index.module.css';
 import Copration from '../img/copration.jpg';
-import programming from '../img/programming.jpeg';
 
 const Home = () => {
   return (
@@ -32,6 +31,10 @@ const Home = () => {
           </div>
         </div>
 
+      </section>
+      
+      <section className={styles.paragraphSection}>
+              <h2>Start a Life Time Job With Us</h2>
       </section>
 
       <section className={styles.paragraph}>

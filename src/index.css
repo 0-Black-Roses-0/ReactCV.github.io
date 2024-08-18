@@ -1,0 +1,11 @@
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+a::selection,
+label::selection,
+p::selection {
+    background: none;
+    color: rgb(57, 121, 238);
+    background-color: none;
+}

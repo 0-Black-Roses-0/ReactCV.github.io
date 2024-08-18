@@ -6,6 +6,7 @@ import CustomerCount from './CustomerCount';
 import ProductCount from './ProductCount';
 import styles from './style/Dashboard.module.css';
 
+
 const Dashboard = () => {
   return (
     <div className={styles.dashboard}>

@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     margin: 0;
     padding: 0;
@@ -11,7 +10,6 @@ a {
     color: inherit;
 }
 
-/* Home Page Styles */
 .homeContainer {
     display: flex;
     flex-direction: column;
@@ -121,7 +119,7 @@ a {
     padding: 20px;
 }
 
-.paragraph > div {
+.paragraph>div {
     padding: 20px;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -129,7 +127,7 @@ a {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.paragraph > div:hover {
+.paragraph>div:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
@@ -139,14 +137,19 @@ a {
     border-radius: 8px;
 }
 
+.paragraphSection h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #4c65af;
+}
+
 @media (min-width: 768px) {
     .paragraph {
         flex-direction: row;
         justify-content: space-between;
     }
 
-    .paragraph > div {
+    .paragraph>div {
         flex: 1 1 calc(50% - 30px);
     }
 }
-
