@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import styles from '../../style/header.module.css'; // مسیر فایل استایل
+import styles from '../../style/header.module.css';
 
 function Header() {
     return (
@@ -24,6 +24,13 @@ function Header() {
                     to="/profile"
                     className={({ isActive }) =>
                         isActive ? `${styles.aheader} ${styles.active}` : styles.aheader}>Profile</NavLink>
+            </li>
+
+            <li className={styles.liheader}>
+                <NavLink
+                    to="/Notfound"
+                    className={({ isActive }) =>
+                        isActive ? `${styles.aheader} ${styles.active}` : styles.aheader}>404 not found</NavLink>
             </li>
 
             <li className={`${styles.liheader} ${styles.liabout}`}>

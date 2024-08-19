@@ -7,6 +7,7 @@ import Footer from './components/master/footer/footer';
 import Signup from './components/login/signup'
 import Home from './components/public/index'
 import Profile from './components/public/profile';
+import Notfound from './components/public/404Notfound';
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
                         <Route path="/login" element={<Login />} />
                         <Route path="/signup" element={<Signup />} />
                         <Route path='/profile' element={<Profile />} />
+                        <Route path='/notfound' element={<Notfound />} />
                     </Routes>
                 </main>
                 <Footer />
