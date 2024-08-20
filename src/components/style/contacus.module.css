@@ -1,0 +1,78 @@
+.LocationDiv,
+.PhoneDiv,
+.EmailDiv {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    position: relative;
+    margin-right: 20px;
+    margin-top: 50px; /* پایین‌تر آوردن div ها */
+    margin-left: 30px;
+}
+
+.LocationDiv:last-child,
+.PhoneDiv:last-child,
+.EmailDiv:last-child {
+    margin-right: 0;
+}
+
+.LocationIcon,
+.PhoneIcon,
+.EmailIcon {
+    position: absolute;
+    top: 20px; /* پایین‌تر آوردن آیکون‌ها */
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 48px;  /* بزرگ‌تر کردن آیکون‌ها */
+    height: 48px;
+    z-index: -1;  /* قرار دادن آیکون‌ها پشت h3 */
+    opacity: 0.5;  /* کاهش شفافیت آیکون‌ها برای پس‌زمینه بودن */
+}
+
+.h3Head {
+    position: relative;
+    margin-top: 80px; /* پایین‌تر آوردن تیترها */
+    font-size: 1.5rem;
+}
+
+.Pinformation {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.mapContainerStyle{
+    
+}
+
+@media (max-width: 768px) {
+    .LocationDiv,
+    .PhoneDiv,
+    .EmailDiv {
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        width: 100%; /* برای اینکه در موبایل به صورت افقی پشت سر هم باشند */
+        margin-right: 0;
+        margin-top: 20px; /* فاصله کمتر در موبایل */
+        margin-left: 0px;
+    }
+
+    .LocationIcon,
+    .PhoneIcon,
+    .EmailIcon {
+        width: 38px;  /* کاهش اندازه آیکون‌ها در موبایل */
+        height: 38px;
+        top: 10px; /* پایین‌تر آوردن آیکون‌ها در موبایل */
+    }
+
+    .h3Head {
+        font-size: 1.3rem; /* کاهش اندازه فونت در موبایل */
+        margin-top: 60px; /* کاهش فاصله بالایی تیترها در موبایل */
+    }
+
+    .Pinformation {
+        font-size: 1rem; /* کاهش اندازه فونت اطلاعات در موبایل */
+    }
+}
+
