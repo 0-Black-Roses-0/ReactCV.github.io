@@ -37,5 +37,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+
+  "homepage": "https://0-Black-Roses-0.github.io/admin-dashboard",
+  "script": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
