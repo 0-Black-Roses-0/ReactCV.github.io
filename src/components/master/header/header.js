@@ -41,6 +41,14 @@ function Header() {
                         className={({ isActive }) =>
                             isActive ? `${styles.aheader} ${styles.active}` : styles.aheader}>Profile</NavLink>
                 </li>
+
+                <li className={styles.liheader}>
+                    <NavLink
+                        to="/contactus"
+                        className={({ isActive }) =>
+                            isActive ? `${styles.aheader} ${styles.active}` : styles.aheader}>ContactUs</NavLink>
+                </li>
+
                 <li className={styles.liheader}>
                     <NavLink
                         to="/Notfound"
