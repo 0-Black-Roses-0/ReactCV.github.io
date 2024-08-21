@@ -5,7 +5,26 @@
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  position: relative; /* اضافه کردن این خط */
+  z-index: 1000; /* اضافه کردن این خط */
 }
+
+/* سبک‌های موبایل */
+@media (max-width: 768px) {
+  .ulheader {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    flex-direction: column;
+    justify-content: start;
+    padding-top: 60px;
+    transition: right 0.3s ease;
+    z-index: 1001; 
+    }
+  }
 
 .liheader {
   float: left;
