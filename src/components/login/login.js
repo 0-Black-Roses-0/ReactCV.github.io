@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from '../style/login.module.css'; // ایمپورت استایل به صورت ماژول
+import styles from '../style/login.module.css'; 
 
 const Login = () => {
   const [email, setEmail] = useState('');

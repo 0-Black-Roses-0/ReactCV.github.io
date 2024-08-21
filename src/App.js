@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Login from './components/login/login';
+import SighnUp from './components/login/signup';
 import Dashboard from './components/Dashboard';
 import Header from './components/master/header/header'
 import Footer from './components/master/footer/footer';
@@ -24,6 +25,7 @@ function App() {
                         <Route path='/profile' element={<Profile />} />
                         <Route path='/notfound' element={<Notfound />} />
                         <Route path='/contactus' element={<ContactUs />} />
+                        <Route path='/signup' element={<SighnUp />} />
                     </Routes>
                 </main>
                 <Footer />
