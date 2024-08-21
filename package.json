@@ -23,7 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://0-Black-Roses-0.github.io/admin-dashboard",
+  "homepage": "https://0-Black-Roses-0.github.io/ReactCV.github.io",
   "eslintConfig": {
     "extends": [
       "react-app",

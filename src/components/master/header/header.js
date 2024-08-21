@@ -49,7 +49,7 @@ function Header() {
             <ul className={`${styles.ulheader} ${menuOpen ? styles.menuOpen : ''}`}>
                 <li className={styles.liheader}>
                     <NavLink
-                        to="/"
+                        to="/ReactCV.github.io"
                         className={({ isActive }) =>
                             isActive ? `${styles.aheader} ${styles.active} ${styles.homeButton}` : `${styles.aheader} ${styles.homeButton}`}
                         end
