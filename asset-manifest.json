@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/admin-dashboard/static/css/main.21d85689.css",
-    "main.js": "/admin-dashboard/static/js/main.08a07bc6.js",
-    "static/js/453.319aa5d5.chunk.js": "/admin-dashboard/static/js/453.319aa5d5.chunk.js",
-    "static/media/pfp.png": "/admin-dashboard/static/media/pfp.d500277f9c412ba6807c.png",
-    "static/media/copration.jpg": "/admin-dashboard/static/media/copration.6c8fa2ee42c4aec3a8ee.jpg",
-    "index.html": "/admin-dashboard/index.html",
-    "main.21d85689.css.map": "/admin-dashboard/static/css/main.21d85689.css.map",
-    "main.08a07bc6.js.map": "/admin-dashboard/static/js/main.08a07bc6.js.map",
-    "453.319aa5d5.chunk.js.map": "/admin-dashboard/static/js/453.319aa5d5.chunk.js.map"
+    "main.css": "/ReactCV.github.io/static/css/main.75534c93.css",
+    "main.js": "/ReactCV.github.io/static/js/main.cd394f73.js",
+    "static/js/453.319aa5d5.chunk.js": "/ReactCV.github.io/static/js/453.319aa5d5.chunk.js",
+    "static/media/pfp.png": "/ReactCV.github.io/static/media/pfp.d500277f9c412ba6807c.png",
+    "static/media/copration.jpg": "/ReactCV.github.io/static/media/copration.6c8fa2ee42c4aec3a8ee.jpg",
+    "index.html": "/ReactCV.github.io/index.html",
+    "main.75534c93.css.map": "/ReactCV.github.io/static/css/main.75534c93.css.map",
+    "main.cd394f73.js.map": "/ReactCV.github.io/static/js/main.cd394f73.js.map",
+    "453.319aa5d5.chunk.js.map": "/ReactCV.github.io/static/js/453.319aa5d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21d85689.css",
-    "static/js/main.08a07bc6.js"
+    "static/css/main.75534c93.css",
+    "static/js/main.cd394f73.js"
   ]
 }
